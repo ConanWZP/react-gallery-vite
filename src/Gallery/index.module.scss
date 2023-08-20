@@ -1,0 +1,27 @@
+.gallery {
+
+  position: relative;
+  user-select: none;
+
+  &Container {
+
+    position: relative;
+
+    .navigation {
+      position: absolute;
+      left: 50%;
+      z-index: 3;
+      bottom: 10px;
+      transform: translateX(-50%);
+
+    }
+  }
+
+  .previewGallery {
+    margin: 0 auto;
+  }
+
+}
+
+
+
